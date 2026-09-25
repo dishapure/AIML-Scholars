@@ -1,0 +1,18 @@
+{
+  "name": "agentcore-arm-test",
+  "source": {
+    "type": "NO_SOURCE",
+    "buildspec": "version: 0.2\nphases:\n  build:\n    commands:\n      - echo ARM-CODEBUILD-OK\n      - uname -m"
+  },
+  "artifacts": {
+    "type": "NO_ARTIFACTS"
+  },
+  "environment": {
+    "type": "ARM_CONTAINER",
+    "image": "aws/codebuild/amazonlinux2-aarch64-standard:3.0",
+    "computeType": "BUILD_GENERAL1_SMALL",
+    "privilegedMode": false
+  },
+  "serviceRole": "arn:aws:iam::041058731288:role/AmazonBedrockAgentCoreSDKCodeBuild-us-east-1-1687b1c02b",
+  "timeoutInMinutes": 10
+}
