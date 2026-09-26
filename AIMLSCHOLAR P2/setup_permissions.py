@@ -86,12 +86,13 @@ def build_policy(partition, account, settings):
             },
             {
                 "Effect": "Allow",
-                "Action": [
+              "Action": [
                     "bedrock-agentcore:StartBrowserSession",
                     "bedrock-agentcore:StopBrowserSession",
                     "bedrock-agentcore:GetBrowserSession",
                     "bedrock-agentcore:UpdateBrowserStream",
                     "bedrock-agentcore:ConnectBrowserAutomationStream",
+                    "bedrock-agentcore:ConnectBrowserLiveViewStream",
                 ],
                 "Resource": f"arn:{partition}:bedrock-agentcore:{region}:aws:browser/aws.browser.v1",
             },
