@@ -8,7 +8,7 @@ Built with **Amazon Bedrock · AgentCore · Python · boto3 · uv**
 
 <br>
 
-<a href="https://github.com/dishapure/AIML-Scholars">
+<a href="https://github.com/dishapure/AIML-Scholars"> 
 <img src="https://img.shields.io/badge/GitHub-AIML--Scholars-181717?style=for-the-badge&logo=github" alt="GitHub">
 </a>
 <a href="https://aws.amazon.com/bedrock/">
