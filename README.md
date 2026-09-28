@@ -48,7 +48,7 @@ and
 
 # 🚀 What This Project Demonstrates
 
-### 🤖 AI Customer Support
+### 🤖 AI Customer Support...
 
 The agent processes customer conversations and generates support responses using Amazon Bedrock.
 
